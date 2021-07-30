@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Source -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">      <!--CSS5 library-->
+<!-- <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:700" rel="stylesheet"> <!-- /* Police */ --> 
+
+
+<!-- Headder -->
+	<head>
+		<link rel="stylesheet" href="CSS/Stylessheet_SecurityPage.css"/>
+		<title>LOGIN</title>
+		<meta charset="utf-8"/> 
+		<meta name="value"/>
+		<link rel="shortcut icon" type="image/x-icon" href="Media/LOGO/Logo_A6.1 ICON.png" />
+	</head>
+	<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+	
+	
+<!-- Body -->
+<body>
+	<div class="w3-display-topleft w3-padding-large w3-xlarge">
+		<a href = "index.html"><img src="Media\LOGO\Logo_A6.1 copy.png" alt="Logo_A6" style="width:25%;margin-top: 25px;margin-left: 25px;"></a>
+	</div>
+  <div class="div1">
+    <div class="div2">
+      <form>
+			<label for="pswd">ENTER PASSWORD</label>
+        <br>
+			<input class="box" type="password" id="pswd">
+        <br>
+        <input class="confirm" type="button" value="SUBMIT" onclick="checkPswd();"  />
+      </form>
+    </div>
+  </div>
+</body>
+
+
+<script type="text/javascript">
+const text = baffle("label");
+text.set({
+	characters: '█>░ █▒██▒ █░>▒░ █<▒ /▓▓▒█ ▒▒/█ /░/ /█▓█ ░░▓▒ █▒██▒ █░>▒░ █▒██▒ █░>▒░ █▒██▒ █░>▒░',
+	speed: 90 
+});
+text.start();
+text.reveal(5000);
+</script>
+
+<script>
+    function checkPswd() {
+        var confirmPassword = "devinci";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+        window.location = "A6.2.html";
+        }
+        else{
+        window.location = "Bad.html";
+        }
+    }
+</script>
+</html>

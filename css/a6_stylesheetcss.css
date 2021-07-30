@@ -1,0 +1,100 @@
+
+.About {
+	text-decoration: none;
+	color: white;
+	margin: auto;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 15px;
+	float: right;
+	position: absolute;
+	top: 47px;
+	right: 57px;
+	
+}
+a{
+text-decoration: none;
+
+}
+
+
+
+body{
+ background: #101010;
+}
+
+li { 
+display: inline;
+margin: 20px;
+}
+
+ul a{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Bai Jamjuree', sans-serif;
+	color: white;
+	letter-spacing: 10px;
+	font-size: 40px;
+	
+}
+
+ul a:hover{
+opacity: 0.5;
+}
+
+a:hover{
+opacity: 0.5;
+}
+
+#a1:hover {
+   background-image:url('wavw.gif');
+  background-position:absolute;
+  background-size:100%;
+  padding:1000px 1000px;
+}
+#a2:hover {
+  background-size:100%;
+    padding:10px 0px;
+}
+#a3:hover {
+  background-image:url(Animation_commingsoon.gif);
+  background-size:100%;
+  padding:10px 0px;
+}
+
+
+
+/* fade effect  
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+
+#circle{
+size: 30px
+
+
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+} 
+square-sans-serif 09;
+color ""255463:
+co<
+square-sans:transition...
+array ; 235;
+position ablosut: px9832: 
+
+
+*/

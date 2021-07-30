@@ -1,0 +1,23 @@
+body {
+  background: #101010;
+}
+
+img.animated-gif {
+  max-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
